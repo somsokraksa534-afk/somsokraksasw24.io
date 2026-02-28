@@ -1,0 +1,157 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right, rgb(57, 57, 251), violet);
+}
+.container {
+	width: 30%;
+	height: 450px;
+	background-color: white;
+	border-radius: 30px;
+}
+.container h2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 160px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	color: rgb(16, 4, 131);
+	border-radius: 30px 30px 0 0;
+	/* background-color: blue; */
+}
+.number {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.container #result {
+	width: 100%;
+	height: 180px;
+	/* background-color: aqua; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 80px;
+	font-weight: bold;
+	color: rgb(237, 56, 56);
+}
+
+button {
+	background-image: linear-gradient(
+		to right,
+		#ff4b1f 0%,
+		#1fddff 51%,
+		#ff4b1f 100%
+	);
+	cursor: pointer;
+}
+.btn {
+	width: 100%;
+	height: 100px;
+	/* background-color: #ff4b1f; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container button {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* margin: 10px; */
+	padding: 10px 50px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 22px;
+	border: none;
+}
+
+button:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+/* Add New CSS Mutiple box */
+/* Boxes wrapper */
+.box-group {
+	width: 100%;
+	height: 160px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	/* background-color: #ff4b1f; */
+	grid-template-columns: repeat(5, 1fr);
+	gap: 12px;
+	margin-bottom: 25px;
+}
+
+/* Each box */
+.box {
+	height: 65px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #ffffff, #dfe4ea);
+	color: rgb(16, 4, 131);
+	font-size: 40px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+	transition:
+		transform 0.3s ease,
+		box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.box:hover {
+	transform: translateY(-6px) scale(1.05);
+	box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+
+#btn1 {
+	background-image: linear-gradient(
+		to right,
+		#1a2980 0%,
+		#26d0ce 51%,
+		#1a2980 100%
+	);
+}
+#btn1 {
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+}
+
+#btn1:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
